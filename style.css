@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+ height: 100%;
+ width: 100%;
+}
+.main{
+ height: 100%;
+ width: 100%;
+ background-color: grey;
+ position: relative;
+}
+.penal{
+ height: 80%;
+ width: 80%;
+ background-color: white;
+ margin-left: 10%;
+ margin-top: 5%;
+ border-radius: 20px;
+ position: absolute;
+ overflow: hidden;
+}
+.toppenal{
+ height: 10%;
+ width: 100%;
+ background-color: cadetblue;
+ justify-content: space-around;
+ display: flex;
+ align-items: center;
+ color: white;
+ padding: 0 20%;
+}
+.elem{
+ align-items: center;
+ display: flex;
+ gap: 20px;
+}
+.box{
+ padding: 5px 20px;
+ background-color: white;
+ border-radius: 5px;
+ font-weight: 700;
+ font-size: 25px;
+ color: black;
+}
+.penalbtm{
+ height: 90%;
+ width: 100%;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.bbl{
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background-color: rgb(147, 196, 147);
+ font-weight: 700;
+ font-size: 25px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 10px;
+}
+.bbl:hover{
+ cursor: pointer;
+ background-color: rgb(139, 186, 188);
+}
